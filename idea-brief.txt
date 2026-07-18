@@ -1,0 +1,129 @@
+You are an expert TypeScript, NitroStack, MCP, and AI Agent developer.
+
+Build a production-ready MCP (Model Context Protocol) server using NitroStack.
+
+The project should follow the latest NitroStack architecture and best practices.
+
+Requirements:
+
+• Use TypeScript
+• Use NitroStack decorators
+• Modular folder structure
+• Strong typing
+• Error handling
+• Input validation using Zod
+• Async implementation
+• Clean code
+• Well documented
+
+Project Structure
+
+src/
+ ├── server.ts
+ ├── tools/
+ ├── resources/
+ ├── prompts/
+ ├── services/
+ ├── utils/
+ ├── models/
+ ├── config/
+ └── types/
+
+Implement all MCP components.
+
+TOOLS
+-------
+Every tool should have:
+
+- Description
+- Input schema
+- Output schema
+- Validation
+- Error handling
+- Logging
+
+RESOURCES
+-----------
+Expose datasets through MCP Resources.
+
+PROMPTS
+----------
+Create reusable prompt templates that AI agents can call.
+
+SERVICES
+------------
+Move business logic into service classes.
+
+UTILS
+---------
+Reusable helper functions.
+
+CONFIG
+----------
+Environment configuration using dotenv.
+
+TYPES
+---------
+Separate TypeScript interfaces.
+
+Features
+
+1. Logging
+
+Use structured logging.
+
+2. Error Handling
+
+Return proper MCP errors.
+
+3. Validation
+
+Use Zod for every input.
+
+4. Async Architecture
+
+Every tool must support async operations.
+
+5. Documentation
+
+Generate README.md explaining:
+
+Installation
+
+Running locally
+
+Running with NitroStack
+
+Available Tools
+
+Resources
+
+Example Calls
+
+Architecture
+
+6. Testing
+
+Create sample MCP requests and responses.
+
+7. Scalability
+
+Design so more tools can be added without changing existing code.
+
+8. Best Practices
+
+Dependency Injection
+
+Single Responsibility Principle
+
+No duplicated code
+
+Proper naming conventions
+
+Comments only where necessary
+
+Generate the complete project including every file.
+
+Do not skip files.
+
+Return the complete code file-by-file.
