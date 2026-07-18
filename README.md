@@ -1,0 +1,2 @@
+# FarmingAi
+Nitrostack Hackathon
